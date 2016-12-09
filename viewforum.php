@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ICON_ANNOUNCEMENT'		=> '公告',
 	'ICON_STICKY'			=> '置顶',
 
-	'LOGIN_NOTIFY_FORUM'	=> '您在本版面有通知，请登录查看。',
+	'LOGIN_NOTIFY_FORUM'	=> '本版块有新通知，请登录查看。',
 
 	'MARK_TOPICS_READ'		=> '标记主题为已读',
 
@@ -57,14 +57,14 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS_HOT'      => '无未读帖子 [ 活跃 ]',
 	'NO_UNREAD_POSTS_LOCKED'   => '无未读帖子 [ 锁定 ]',
 
-	'POST_FORUM_LOCKED'		=> '版面被锁定',
+	'POST_FORUM_LOCKED'		=> '版块已锁定',
 
-	'TOPICS_MARKED'			=> '这个版面的主题现在被标记为已读',
+	'TOPICS_MARKED'			=> '此版块的主题已被标记为已读',
 	
 	'UNREAD_POSTS_HOT'      => '有未读帖子 [ 热门 ]',
 	'UNREAD_POSTS_LOCKED'   => '有未读帖子 [ 锁定 ]',
 
-	'VIEW_FORUM'			=> '查看版面',
+	'VIEW_FORUM'			=> '查看版块',
 	'VIEW_FORUM_TOPICS'		=> array(
 		1	=> '%d 主题',
 		2	=> '%d 主题',

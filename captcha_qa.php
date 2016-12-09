@@ -37,10 +37,10 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'Q&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> '请回答此问题以证明您不是Spam机器人。',
-	'CONFIRM_QUESTION_WRONG'	=> '您的回答不正确。',
-	'CONFIRM_QUESTION_MISSING'	=> 'Captcha 问题无法被取得。请联系论坛管理员。',
+	'CAPTCHA_QA'				=> '问题验证',
+	'CONFIRM_QUESTION_EXPLAIN'	=> '请回答问题验证。',
+	'CONFIRM_QUESTION_WRONG'	=> '你的回答不正确。',
+	'CONFIRM_QUESTION_MISSING'	=> '读取验证问题失败，请稍后再试。',
 	
 	'QUESTION_ANSWERS'			=> '问题答案',
 	'ANSWERS_EXPLAIN'			=> '请输入正确答案， 多个请分行。',
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT'				=> '问题',
 	'QUESTION_TEXT_EXPLAIN'		=> '显示给用户看的问题内容。',
 
-	'QA_ERROR_MSG'				=> '请填写所有空格并输入至少一个答案。',
+	'QA_ERROR_MSG'				=> '还有答案没填写。',
 	'QA_LAST_QUESTION'			=> '在插件还处于激活状态时不能删除所有问题。',
 
 ));

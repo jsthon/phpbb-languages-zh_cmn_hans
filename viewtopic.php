@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT'						=> '附件',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> '附件功能已经停用。',
 
-	'BOOKMARK_ADDED'		=> '主题收藏完成。',
+	'BOOKMARK_ADDED'		=> '主题收藏成功。',
 	'BOOKMARK_ERR'         => '主题收藏不成功, 请再试一次.',
 	'BOOKMARK_REMOVED'		=> '成功取消收藏主题。',
 	'BOOKMARK_TOPIC'		=> '收藏主题',
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 		1	=> '上次由 %2$s 在 %3$s，总共编辑 %1$d 次。',
 		2	=> '上次由 %2$s 在 %3$s，总共编辑 %1$d 次。',
 	),
-	'EMAIL_TOPIC'			=> 'Email 主题',
+	'EMAIL_TOPIC'			=> '邮件主题',
 	'ERROR_NO_ATTACHMENT'	=> '选择的附件已经不存在',
 
 	'FILE_NOT_FOUND_404'	=> '文件 <strong>%s</strong> 不存在。',
@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d 帖子',
 	),
 	'VIEW_UNREAD_POST'		=> '第一个未读帖子',
-	'VOTE_SUBMITTED'		=> '您的投票已经送出',
-	'VOTE_CONVERTED'		=> '为改变投票结果而修改投票选项是不被支持的。',
+	'VOTE_SUBMITTED'		=> '您的投票已经提交。',
+	'VOTE_CONVERTED'		=> '不允许再次修改投票选项。',
 
 ));

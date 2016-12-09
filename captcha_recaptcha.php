@@ -39,14 +39,14 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> '英文',
 	'RECAPTCHA_NOT_AVAILABLE'		=> '要使用reCaptcha，您需要先在<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>上注册一个账号。',
-	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> '您输入的验证码不正确',
+	'CAPTCHA_RECAPTCHA'				=> '验证码',
+	'RECAPTCHA_INCORRECT'			=> '验证码不正确。',
 
 	'RECAPTCHA_PUBLIC'				=> 'reCaptcha公钥',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> '您的公开reCaptcha密钥。密钥可以从<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>上获得。',
 	'RECAPTCHA_PRIVATE'				=> 'reCaptcha私钥',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '您的私人reCaptcha密钥。密钥可以从 <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> 上获得。',
 
-	'RECAPTCHA_EXPLAIN'				=> '为了防止Spam机器人自动提交， 请您输入下面显示的两个词。',
-	'RECAPTCHA_SOCKET_ERROR'		=> '连接RECAPTCHA服务出问题：无法打开socket，请稍后重试。',
+	'RECAPTCHA_EXPLAIN'				=> '请输入验证码。',
+	'RECAPTCHA_SOCKET_ERROR'		=> '连接 reCaptcha 失败：无法开启 Socket，请稍后重试。',
 ));
