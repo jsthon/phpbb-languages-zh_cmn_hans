@@ -124,15 +124,15 @@ $lang = array_merge($lang, array(
 	'BCC'					=> 'BCC',
 	'BIRTHDAYS'				=> '生日',
 	'BOARD_BAN_PERM'		=> '你已被<strong>永久封禁</strong>。<br /><br />请联系 %2$s管理员%3$s 了解详情。',
-	'BOARD_BAN_REASON'		=> '封禁原因: <strong>%s</strong>',
+	'BOARD_BAN_REASON'		=> '封禁原因：<strong>%s</strong>',
 	'BOARD_BAN_TIME'		=> '你在 <strong>%1$s</strong> 前将被限制访问。<br /><br />请联系 %2$s管理员%3$s 了解详情。',
 	'BOARD_DISABLE'			=> '本论坛暂时关闭',
 	'BOARD_DISABLED'		=> '本论坛暂时关闭',
 	'BOARD_UNAVAILABLE'		=> '很抱歉本论坛暂时无法使用，请稍后再访问。',
 	'BROWSING_FORUM'		=> '正在浏览：%1$s',
 	'BROWSING_FORUM_GUESTS'	=> array(
-		1	=> '当前在线: %2$s 和 %1$d 访客',
-		2	=> '当前在线: %2$s 和 %1$d 访客',
+		1	=> '当前在线：%2$s 和 %1$d 游客',
+		2	=> '当前在线：%2$s 和 %1$d 游客',
 	),
 	'BUTTON_EDIT'			=> '编辑',
 	'BUTTON_FORUM_LOCKED'	=> '版块已锁',
@@ -295,24 +295,24 @@ $lang = array_merge($lang, array(
 	'GROUP_ERR_USER_LONG'		=> '用户组名称过长。',
 	'GUEST'						=> '游客',
 	'GUEST_USERS_ONLINE'		=> array(
-		1	=> '有 %d 访客在线',
-		2	=> '有 %d 访客在线',
+		1	=> '有 %d 游客在线',
+		2	=> '有 %d 游客在线',
 	),
 	'GUEST_USERS_TOTAL'			=> array(
-		1	=> '%d 访客',
-		2	=> '%d 访客',
+		1	=> '%d 游客',
+		2	=> '%d 游客',
 	),
 	'G_ADMINISTRATORS'			=> '管理员',
 	'G_BOTS'					=> '蜘蛛',
 	'G_GUESTS'					=> '游客',
 	'G_REGISTERED'				=> '会员',
-	'G_REGISTERED_COPPA'		=> '注册COPPA用户',
+	'G_REGISTERED_COPPA'		=> 'COPPA用户',
 	'G_GLOBAL_MODERATORS'		=> '版主',
-	'G_NEWLY_REGISTERED'		=> '新注册',
+	'G_NEWLY_REGISTERED'		=> '实习',
 
 	'HIDDEN_USERS_ONLINE'		=> array(
-		1	=> '%d 隐身用户',
-		2	=> '%d 隐身用户',
+		1	=> '%d 隐身',
+		2	=> '%d 隐身',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
 		1	=> '%d 隐身',
@@ -468,7 +468,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>主题未批审</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '%1$s 的主题<strong>待审核</strong>:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> '「%s」通知已不存在。',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '等待<strong>激活用户</strong>: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '等待<strong>激活用户</strong>：“%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> '查看全部',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -499,7 +499,7 @@ $lang = array_merge($lang, array(
 	'NO_MODERATORS'				=> '此版块还没有版主。',
 	'NO_NEW_MESSAGES'			=> '没有新的私信',
 	'NO_NEW_POSTS'				=> '无新帖',	// Not used anymore
-	'NO_ONLINE_USERS'			=> '没有会员',
+	'NO_ONLINE_USERS'			=> '0 会员',
 	'NO_POSTS'					=> '没有帖子',
 	'NO_POSTS_TIME_FRAME'		=> '该时间段中没有此主题的帖子。',
 	'NO_FEED_ENABLED'			=> 'ATOM 输出尚未启用.',
@@ -535,13 +535,13 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> '在线好友',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> '共 <strong>%1$d</strong> 会员在线 : %2$s 和 %3$s',
-		2	=> '共 <strong>%1$d</strong> 会员在线 : %2$s 和 %3$s',
+		1	=> '共 <strong>%1$d</strong> 人在线：%2$s 和 %3$s',
+		2	=> '共 <strong>%1$d</strong> 人在线：%2$s 和 %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> '共 <strong>%1$d</strong> 会员在线 : %2$s, %3$s 和 %4$s',
-		2	=> '共 <strong>%1$d</strong> 会员在线 : %2$s, %3$s 和 %4$s',
+		1	=> '共 <strong>%1$d</strong> 人在线：%2$s, %3$s 和 %4$s',
+		2	=> '共 <strong>%1$d</strong> 人在线：%2$s, %3$s 和 %4$s',
 	),
 	'OPTIONS'					=> '选项',
 
@@ -575,7 +575,7 @@ $lang = array_merge($lang, array(
 	'POST_DELETED_ACTION'	=> '删除的帖子:',
 	'POST_DELETED'			=> '该帖子已被删除。',
 	'POST_DELETED_BY'		=> '<strong>%2$s</strong> 已被 <strong>%1$s</strong> 从 %3$s 中删除。',
-	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> 已被 <strong>%1$s</strong> 从 %3$s 中删除，原因: %4$s',
+	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> 已被 <strong>%1$s</strong> 从 %3$s 中删除，原因：%4$s',
 	'POST_DETAILS'			=> '主题详情',
 	'POST_NEW_TOPIC'		=> '发布新主题',
 	'POST_PCT'				=> '所有帖子的 %.2f%%',
@@ -618,8 +618,8 @@ $lang = array_merge($lang, array(
 		2	=> '有 %1$d 会员和 %2$s 在线',
 	),
 	'REG_USERS_TOTAL'			=> array(
-		1	=> '%d 注册会员',
-		2	=> '%d 注册会员',
+		1	=> '%d 会员',
+		2	=> '%d 会员',
 	),
 	'REMOVE'					=> '删除',
 	'REMOVE_INSTALL'			=> '在开始使用论坛前请删除、移除或重命名 install 文件夹。如果这个文件夹存在，您只能使用管理员控制面板(ACP)。',
@@ -840,8 +840,8 @@ $lang = array_merge($lang, array(
 	'VIEW_NEWEST_POST'			=> '查看最近未读',
 	'VIEW_NOTES'				=> '查看用户历史',
 	'VIEW_ONLINE_TIMES'			=> array(
-		1	=> '用户 %d 分钟内的活动',
-		2	=> '用户 %d 分钟内的活动',
+		1	=> '最近 %d 分钟的活跃用户',
+		2	=> '最近 %d 分钟的活跃用户',
 	),
 	'VIEW_TOPIC'				=> '浏览主题',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> '公告：',

@@ -530,7 +530,7 @@ $lang = array_merge($lang, array(
 	'UCP_NOTIFICATION_OPTIONS'			=> '消息通知',
 	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> '这里您可以设置您的首选通知方法。',
 
-	'UCP_PREFS'					=> '本站相关',
+	'UCP_PREFS'					=> '本站选项',
 	'UCP_PREFS_PERSONAL'		=> '全局设置',
 	'UCP_PREFS_POST'			=> '发帖设置',
 	'UCP_PREFS_VIEW'			=> '显示设置',
