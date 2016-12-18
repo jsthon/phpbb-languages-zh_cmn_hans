@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'CODE'					=> '代码',
 
 	'DELETE_TOPIC'			=> '删除主题',
-	'DELETED_INFORMATION'	=> '删除由 %1$s 在 %2$s',
+	'DELETED_INFORMATION'	=> '由 %1$s 删除在 %2$s',
 	'DISAPPROVE'					=> '不批准',
 	'DOWNLOAD_NOTICE'		=> '您没有权限查看这个主题的附件。',
 
