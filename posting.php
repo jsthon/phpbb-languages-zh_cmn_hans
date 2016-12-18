@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ALREADY_DELETED'			=> '对不起，此内容已经被删除。',
 	'ATTACH_DISK_FULL'			=> '可用磁盘空间不足，无法发布这个附件。',
 	'ATTACH_QUOTA_REACHED'		=> '对不起，你的附件限额已经用完了。',
-	'ATTACH_SIG'				=> '添加签名（签名可以在用户控制面板修改）',
+	'ATTACH_SIG'				=> '本帖使用个性签名',
 
 	'BBCODE_A_HELP'				=> '行内显示附件: [attachment=]filename.ext[/attachment]',
 	'BBCODE_B_HELP'				=> '粗体：[b]文本[/b]',
@@ -143,11 +143,11 @@ $lang = array_merge($lang, array(
 	'LOAD'						=> '加载',
 	'LOAD_DRAFT'				=> '加载草稿',
 	'LOAD_DRAFT_EXPLAIN'		=> '在这里，你可以选择草稿继续编辑。你现在编写的帖子将被取消，所有的当前内容将会丢失。你可以在用户控制面板内查看、编辑和删除草稿。',
-	'LOGIN_EXPLAIN_BUMP'		=> '你需要登录后才能在这个版块顶话题。',
-	'LOGIN_EXPLAIN_DELETE'		=> '你需要登录后才能在这个版块删除帖子。',
-	'LOGIN_EXPLAIN_POST'		=> '你需要登录后才能在这个版块发表文章。',
-	'LOGIN_EXPLAIN_QUOTE'		=> '你需要登录后才能在这个版块引用帖子。',
-	'LOGIN_EXPLAIN_REPLY'		=> '你需要登录后才能在这个版块回复帖子。',
+	'LOGIN_EXPLAIN_BUMP'		=> '你需要登录后才能顶话题。',
+	'LOGIN_EXPLAIN_DELETE'		=> '你需要登录后才能删除帖子。',
+	'LOGIN_EXPLAIN_POST'		=> '你需要登录后才能发表文章。',
+	'LOGIN_EXPLAIN_QUOTE'		=> '你需要登录后才能引用帖子。',
+	'LOGIN_EXPLAIN_REPLY'		=> '你需要登录后才能回复帖子。',
 
 	'MAX_FONT_SIZE_EXCEEDED'	=> '你可以使用的最大字体是 %1$d。',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
