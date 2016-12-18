@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACTIVE_TOPICS'			=> '活跃主题',
 	'ANNOUNCEMENTS'			=> '公告',
 
-	'FORUM_PERMISSIONS'		=> '论坛权限',
+	'FORUM_PERMISSIONS'		=> '我的权限',
 
 	'ICON_ANNOUNCEMENT'		=> '公告',
 	'ICON_STICKY'			=> '置顶',

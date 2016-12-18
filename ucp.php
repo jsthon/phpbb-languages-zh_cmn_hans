@@ -72,11 +72,11 @@ $lang = array_merge($lang, array(
 	'ACTIVATION_EMAIL_SENT_ADMIN'	=> '激活邮件已经发往论坛管理员的邮箱。',
 	'ADD'							=> '添加',
 	'ADD_BCC'						=> '添加[BCC]',
-	'ADD_FOES'						=> '屏蔽用户',
-	'ADD_FOES_EXPLAIN'				=> '您可以在不同的行上分别输入几个用户名',
+	'ADD_FOES'						=> '添加屏蔽用户',
+	'ADD_FOES_EXPLAIN'				=> '输入用户名，多个可换行。',
 	'ADD_FOLDER'					=> '添加文件夹',
 	'ADD_FRIENDS'					=> '添加好友',
-	'ADD_FRIENDS_EXPLAIN'			=> '您可以在不同的行上分别输入几个用户名',
+	'ADD_FRIENDS_EXPLAIN'			=> '输入用户名，多个可换行。',
 	'ADD_NEW_RULE'					=> '添加新规则',
 	'ADD_RULE'						=> '添加规则',
 	'ADD_TO'						=> '添加【收件人】',
@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'				=> '我的论坛风格',
 	'BOARD_TIMEZONE'			=> '我的时区',
 	'BOOKMARKS'					=> '收藏夹',
-	'BOOKMARKS_EXPLAIN'			=> '您可以收藏主题以方便将来查找。如果需要删除其中的书签请选中勾选框，然后点击 <em>删除书签</em> 按钮。',
+	'BOOKMARKS_EXPLAIN'			=> '管理你收藏的主题帖子内容。',
 	'BOOKMARKS_DISABLED'		=> '论坛已经禁用收藏夹',
 	'BOOKMARKS_REMOVED'			=> '成功移除了书签',
 
@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_VALUE'				=> '字段 “%s” 值无效。',
 
 	'FOE_MESSAGE'				=> '来自屏蔽用户的私信',
-	'FOES_EXPLAIN'				=> '屏蔽列表上的用户默认被忽略。这些用户的帖子将不会全部显示并且不允许对您发送私信。请注意这不能阻止版主和管理员的私信。',
+	'FOES_EXPLAIN'				=> '查看与管理你屏蔽的用户，他们的帖子和私信将被忽略。',
 	'FOES_UPDATED'				=> '您的屏蔽列表已经更新',
 	'FOLDER_ADDED'				=> '文件夹已经添加',
 	'FOLDER_MESSAGE_STATUS'		=> array(
@@ -244,7 +244,7 @@ $lang = array_merge($lang, array(
 	'FORCE_PASSWORD_EXPLAIN'	=> '为了继续浏览论坛，您需要更改您的密码',
 	'FRIEND_MESSAGE'			=> '好友的私信',
 	'FRIENDS'					=> '好友',
-	'FRIENDS_EXPLAIN'			=> '好友名单能让您迅速找到您经常联络的其他用户。如果模板支持，好友发表的帖子将被高亮显示。',
+	'FRIENDS_EXPLAIN'			=> '查看与管理你的好友列表。',
 	'FRIENDS_OFFLINE'			=> '离线好友',
 	'FRIENDS_ONLINE'			=> '线上好友',
 	'FRIENDS_UPDATED'			=> '您的好友名单已经更新',
@@ -438,8 +438,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> '您的参数已经更新。',
 	'PROFILE_INFO_NOTICE'		=> '请注意这些信息将对其他成员可见。请谨慎包含个人资料。标记 * 的表格是必填栏目。',
 	'PROFILE_UPDATED'			=> '您的资料已经更新。',
-	'PROFILE_AUTOLOGIN_KEYS'	=> '"自动登录"的登录密钥会帮助您在访问论坛时自动登入论坛。如果您登出，将只会删除您点选登出的电脑所关联的登录密钥。在这里您可以看到所记住的在其他电脑上创建的登录密钥。',
-	'PROFILE_NO_AUTOLOGIN_KEYS'	=> '没有保存的 "自动登录"之 登录密钥。',
+	'PROFILE_AUTOLOGIN_KEYS'	=> '"自动登录"的将会保持你在某些设备上的登录状态。',
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> '没有保存的 "自动登录"状态。',
 
 	'RECIPIENT'							=> '收件人',
 	'RECIPIENTS'						=> '收件人',
@@ -528,7 +528,7 @@ $lang = array_merge($lang, array(
 	'UCP_NOTIFICATION_LIST'				=> '消息通知',
 	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> '这里您可以查看所有历史通知。',
 	'UCP_NOTIFICATION_OPTIONS'			=> '消息通知',
-	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> '这里您可以设置您的首选通知方法。',
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> '设置你的首选通知方式。',
 
 	'UCP_PREFS'					=> '本站选项',
 	'UCP_PREFS_PERSONAL'		=> '全局设置',
@@ -602,15 +602,15 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> '显示帖子排序方向',
 	'VIEW_POSTS_KEY'			=> '显示帖子排序依据',
 
-	'WATCHED_EXPLAIN'			=> '以下是您订阅的版面和主题列表。您将收到它们的更新信息。退订: 选中版面或主题后点击 <em>退订选中</em> 按钮。',
-	'WATCHED_FORUMS'			=> '观察的版面',
-	'WATCHED_TOPICS'			=> '观察的主题',
+	'WATCHED_EXPLAIN'			=> '你关注的版块和帖子，有新内容更新时将会收到消息推送。',
+	'WATCHED_FORUMS'			=> '关注的版块',
+	'WATCHED_TOPICS'			=> '关注的主题',
 	'WRONG_ACTIVATION'			=> '您提供的激活码在数据库中找不到匹配的记录',
 
 	'YOUR_DETAILS'				=> '您的信息',
-	'YOUR_FOES'					=> '您的屏蔽列表',
+	'YOUR_FOES'					=> '你屏蔽的用户',
 	'YOUR_FOES_EXPLAIN'			=> '删除用户名: 选中并点击提交',
-	'YOUR_FRIENDS'				=> '您的好友',
+	'YOUR_FRIENDS'				=> '你的好友',
 	'YOUR_FRIENDS_EXPLAIN'		=> '删除用户名: 选中并点击提交',
 	'YOUR_WARNINGS'				=> '您的警告级别',
 
@@ -644,7 +644,7 @@ $lang = array_merge($lang, array(
 		'TO_ME'			=> '我'
 	),
 
-	'GROUPS_EXPLAIN'	=> '用户组设置使管理员更好的管理用户。您会处于一个默认的组中。组定义将决定您对于其他用户的显示信息，例如您的用户名颜色，头像，级别等等。您可以改变您的默认组，但是这取决于管理员的设置。您也可能被放入或加入其他组。一些用户组将会具有额外的权限访问更多的区域。',
+	'GROUPS_EXPLAIN'	=> '查看与管理你所在的用户组。',
 	'GROUP_LEADER'		=> '组领导',
 	'GROUP_MEMBER'		=> '组成员',
 	'GROUP_PENDING'		=> '待批准的组',
