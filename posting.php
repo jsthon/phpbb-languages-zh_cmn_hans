@@ -195,13 +195,13 @@ $lang = array_merge($lang, array(
 	'POLL_OPTIONS'				=> '投票选项',
 	'POLL_OPTIONS_EXPLAIN'		=> array(
 		1	=> '每行一个选项，你可以输入<strong>%d</strong>个选项。',
-		2	=> '每行一个选项，你可以输入高达<strong>%d</strong>个选项。',
+		2	=> '每行一个选项，你最多可输入<strong>%d</strong>个选项。',
 	),
 	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
-		1	=> '每行一个选项，你可以输入<strong>%d</strong>个选项。如果你移除或添加选项，所有之前的投票将被重置。',
-		2	=> '每行一个选项，你可以输入高达<strong>%d</strong>个选项。如果你移除或添加选项，所有之前的投票将被重置。',
+		1	=> '每行一个选项，你可以输入<strong>%d</strong>个选项。如果有变更选项，所有票数将被重置。',
+		2	=> '每行一个选项，你最多可输入<strong>%d</strong>个选项。如果有变更选项，所有票数将被重置。',
 	),
-	'POLL_QUESTION'				=> '投票问题',
+	'POLL_QUESTION'				=> '投票主题',
 	'POLL_TITLE_TOO_LONG'		=> '投票的标题不能大于100字符.',
 	'POLL_TITLE_COMP_TOO_LONG'	=> '解析后的投票标题过长, 请删除一些BBCode或表情图标.',
 	'POLL_VOTE_CHANGE'			=> '允许重新投票',
