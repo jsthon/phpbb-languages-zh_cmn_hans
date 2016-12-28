@@ -38,38 +38,47 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> '对 “%1$s” (下文中指代 “我们”，“我们的”，“%1$s”，“%2$s”)的访问，表明您同意并遵守以下具有法律效力之条款。如果您不同意以下条款，请停止访问和使用 “%1$s”。我们可能在我们认为合适的时候，在并未通知您的情况下改变这些条款，您在条款改变后继续使用 “%1$s” 将被认为认同并遵守这些条款。<br />
+	'TERMS_OF_USE_CONTENT'	=> '%1$s是一个开放社区<br />
+	你可以在这里畅所欲言<br />
+	而不必太拘束你的想法<br />
 	<br />
-	我们的论坛运行使用 phpBB (下文中指代 “他们”， “他们的”， “phpBB 软件”， “www.phpbb.com”， “phpBB 组”， “phpBB 团队”)， 这是一个使用 “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (下文指代 "GPL") 软件协议的公告栏系统解决方案， 可以从 <a href="https://www.phpbb.com/">www.phpbb.com</a> 下载。 phpBB仅使基于 Internet 的讨论更容易， phpBB Group不对所讨论的内容负责。 如果希望得到更多关于phpBB的信息， 请访问: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>。<br />
+	虽然我们尊重言论自由<br />
+	但为了保持良好的氛围<br />
+	%1$s也有明确的规则<br />
 	<br />
-	您同意不张贴任何带有辱骂，淫秽，粗俗，诽谤，仇恨，威胁，色情的内容，不张贴任何带有侵犯您所在国家的法律， “%1$s” 所在国家的法律，国际公法的内容。以上的行为可能会使您在未得到通知的情况下被永远禁止访问这个论坛。所有文章发表所使用的 IP 地址将被记录，以协助调查违反条款的事件。您同意 “%1$s” 具有在任何我们认为合适的时候删除，修改，移动，或关闭任何话题的权力。作为一个用户，您同意您所输入的任何信息将被记录至数据库。在没有得到您同意的前提下我们不会向任何第三方发布这些信息，但是 “%1$s” 和 phpBB 不为任何因为黑客行为导致的数据泄漏承担法律责任.
+	这里不可以发布过多无含义的内容；<br />
+	这里不可以讨论、分享盗版作品；<br />
+	这里不可以全文转载他人的网络文作，请以链接形式分享；<br />
+	这里不可以发表诽谤及人身攻击的言论；<br />
+	这里不可以公开他人的私人信息；<br />
+	这里不可以使用带有侮辱性、低俗的词汇；<br />
+	这里不可以发表反动、暴力、色情等法律明令禁止的内容。
 	',
-
-	'PRIVACY_POLICY'		=> '这个策略用于细节化地解释 “%1$s” 和其附属的公司 (下文中指代 “我们”, “我方”， “我们的”， “%1$s”, “%2$s”) 和 phpBB (下文指代 “他们”， “他方”， “他们的”， “phpBB software”， “www.phpbb.com”， “phpBB Group”， “phpBB 开发团队”) 如何使用在与您的对话中得到的与您有关的信息 (下文中指代 “您的信息”)。<br />
+	'PRIVACY_POLICY'		=> '我们将会收集哪些信息？<br />
+	1、你在%1$s的个人资料；<br />
+	（主要包括用户名、加密的密码值、头像、邮箱、IP 地址等）<br />
+	2、你在%1$s的发言情况；<br />
+	（主要包括发言内容、发言时间、发言数量等）<br />
+	3、由 Google Analytics 统计的匿名数据。<br />
+	（主要包括独立访问量、访客地区、浏览器版本等）<br />
 	<br />
-	您的信息通过两种方式产生。 首先， 通过浏览 “%1$s” 将使 phpBB 软件在您的电脑中生成一定数量的 cookie 文件， 这些 cookie 是浏览器用于缓存信息的临时文件。 其中前两个 cookie 包含用户的ID信息 (下文指代 “用户ID”) 和一个匿名的用户对话ID (下文中指代 “对话ID”)， 将被 phpBB 软件指派自动生成。 第三个cookie 将在您浏览 “%1$s” 中的主题后自动产生， 用于存储您的浏览历史信息， 用于提高用户体验。<br />
-	<br />
-	phpBB软件在浏览 “%1$s” 时，除了上述的 cookies 外，或许我们会使用其它外部 cookie 来储存信息， 但这已经超出了本文档的范围。 第二种是我们通过您在软件中提交的内容收集到的您的信息。 这种情况是但是不局限于: 以匿名用户发帖 (下文中指代 “匿名帖子”)， 在 “%1$s” 上注册帐号 (下文中指代 “您的帐号”) 登录动作和您在注册后发表的帖子 (下文中指代 “您的帖子”)。<br />
-	<br />
-	您的帐号将至少包含一个唯一的用户名 (下文中指代 “您的用户名”)， 一个用于登录您的帐号的个人密码 (下文中指代 “您的密码”) 和一个个人的， 有效的 email 地址 (下文中指代 “您的 email”)。 您在 “%1$s” 上的帐号所包含的信息将受到我们的主机所在国家的数据保护法律的保护。 除了您的用户名和您的密码以及在注册过程中 “%1$s” 要求的email地址以外， 您的其他任何信息都是可选的(除了软件使用者的特殊要求)。 在任何情况下， 您可以选择您的信息是否被公开。 此外， 在您的帐号中， 您可以选择定向收发 phpBB 软件自动生成的email。<br />
-	<br />
-	您的密码在软件中以加密形式存在 (不可逆算法)， 所以它是安全的。 但是， 我们希望您不要在不同的网站上使用相同的用户名和密码。 您的密码是您在  “%1$s” 上访问您的帐号的唯一途径， 所以请谨慎保管您的密码并且在任何情况下不会有任何与 “%1$s” 相关的个人或单位， 或者 phpBB，  或者任何第三方组织需要您提供您的密码。 如果您不慎遗失您的密码， 您可以使用 phpBB 软件提供的 “我忘记了自己的密码” 功能。 在找回密码的过程中您将要回答您的用户名和您的email， 而后 phpBB 软件将会提供一个新的密码让您取回帐号。<br />
+	注：收集的用户信息将严格执行保密处理。
 	',
 ));
 
 // Common language entries
 $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> '你的帐号已激活，感谢你的注册。',
-	'ACCOUNT_ACTIVE_ADMIN'			=> '这个帐号现在被激活了',
+	'ACCOUNT_ACTIVE_ADMIN'			=> '此帐号已激活。',
 	'ACCOUNT_ACTIVE_PROFILE'		=> '你的帐号已经重新激活。',
-	'ACCOUNT_ADDED'					=> '感谢注册，你的帐号已经创建，请使用您的用户名和密码登录。',
-	'ACCOUNT_COPPA'					=> '您的帐号已经创建但是需要审核。更多信息请查收你的邮件。',
-	'ACCOUNT_EMAIL_CHANGED'			=> '您的帐号已经更新。 但是， 需要您重新验证邮箱的更改。 包含激活代码的邮件已经发送到您的新邮箱， 请检查邮箱以激活帐号。',
-	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> '您的帐号已经更新。 但是， 需要由管理员验证您的邮箱更改。 您会收到一封包含此信息的邮件， 在帐号激活后, 我们会再次 email 通知您。',
-	'ACCOUNT_INACTIVE'				=> '您的帐号已经创建，激活码已经发往您注册时提供的邮件，请查收以获得更多信息。 若没有收到，请等多一些时间或者查看一下您的垃圾邮件箱。',
-	'ACCOUNT_INACTIVE_ADMIN'		=> '您的帐号已经创建，但是您必须等待管理员批准帐号后才能登录。您将收到一封邮件，在帐号获得批准后我们将再次通知您。',
-	'ACTIVATION_EMAIL_SENT'			=> '激活邮件已经发往您的邮箱',
-	'ACTIVATION_EMAIL_SENT_ADMIN'	=> '激活邮件已经发往论坛管理员的邮箱。',
+	'ACCOUNT_ADDED'					=> '感谢注册，你的帐号已经创建，请使用用户名和密码登录。',
+	'ACCOUNT_COPPA'					=> '你的帐号已经创建，但需要等待审核，审核结果将邮件通知你。',
+	'ACCOUNT_EMAIL_CHANGED'			=> '您的邮箱已经更改，但需要重新验证邮箱。激活邮件已经发送到你的新邮箱， 请查收并完成更改。',
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> '您的邮箱已经更改，但需要等待审核，审核结果将邮件通知你。',
+	'ACCOUNT_INACTIVE'				=> '你的帐号已经创建，将发送激活邮件至你的邮箱，请查收并完成激活。如果长时间仍未收到，请检查邮件垃圾箱。',
+	'ACCOUNT_INACTIVE_ADMIN'		=> '您的帐号已经创建，但需要等待审核后才能登录，审核结果将邮件通知你。',
+	'ACTIVATION_EMAIL_SENT'			=> '激活邮件已发送至你的邮箱。',
+	'ACTIVATION_EMAIL_SENT_ADMIN'	=> '激活邮件已发送至管理员的邮箱。',
 	'ADD'							=> '添加',
 	'ADD_BCC'						=> '添加[BCC]',
 	'ADD_FOES'						=> '添加屏蔽用户',
@@ -81,7 +90,7 @@ $lang = array_merge($lang, array(
 	'ADD_RULE'						=> '添加规则',
 	'ADD_TO'						=> '添加【收件人】',
 	'ADD_USERS_UCP_EXPLAIN'			=> '您可以在这里添加新组员。 您可以选择是否让这个组成为新组员的默认组。 多个会员请分行输入.',
-	'ADMIN_EMAIL'					=> '管理员可以给我发送 Email',
+	'ADMIN_EMAIL'					=> '管理员可以给我发送邮件',
 	'AGREE'							=> '我同意',
 	'ALLOW_PM'						=> '允许用户给我发私信',
 	'ALLOW_PM_EXPLAIN'				=> '注意：管理员和版主有给您发私信的特权。',
@@ -391,10 +400,10 @@ $lang = array_merge($lang, array(
 	'NO_GROUP_SELECTED'			=> '没有指定用户组',
 	'NO_IMPORTANT_NEWS'			=> '没有重要公告',
 	'NO_MESSAGE'				=> '无法找到私信',
-	'NO_NEW_FOLDER_NAME'		=> '您必须指定一个新文件夹名',
+	'NO_NEW_FOLDER_NAME'		=> '必须指定一个新文件夹名',
 	'NO_NEWER_PM'				=> '没有更新的私信',
 	'NO_OLDER_PM'				=> '没有更早的私信',
-	'NO_PASSWORD_SUPPLIED'		=> '您不能使用空白密码登录.',
+	'NO_PASSWORD_SUPPLIED'		=> '不能使用空密码登录。',
 	'NO_RECIPIENT'				=> '没有定义收信人',
 	'NO_RULES_DEFINED'			=> '没有定义的规则',
 	'NO_SAVED_DRAFTS'			=> '没有保存的草稿',
@@ -403,10 +412,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'      => '你没有选中任何已关注的主题或板块。',
 	'NO_WATCHED_TOPICS'			=> '你没有关注任何话题。',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> '密码长度必须在 %1$s 至 %2$s 之间并且包含混合大小写英文字母和数字。',
-	'PASS_TYPE_ANY_EXPLAIN'		=> '密码长度必须在 %1$s 至 %2$s 之间。',
-	'PASS_TYPE_CASE_EXPLAIN'	=> '密码长度必须在 %1$s 至 %2$s 之间并且包含混合大小写字母。',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> '密码长度必须在 %1$s 至 %2$s 之间并且包含合大小写英文字母和数字及符号。',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> '密码长度在 %1$s 至 %2$s 之间并且包含混合大小写英文字母和数字。',
+	'PASS_TYPE_ANY_EXPLAIN'		=> '密码长度在 %1$s 至 %2$s 之间。',
+	'PASS_TYPE_CASE_EXPLAIN'	=> '密码长度在 %1$s 至 %2$s 之间并且包含混合大小写字母。',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> '密码长度在 %1$s 至 %2$s 之间并且包含合大小写英文字母和数字及符号。',
 	'PASSWORD'					=> '密码',
 	'PASSWORD_ACTIVATED'		=> '您的新密码已经启用。',
 	'PASSWORD_UPDATED'			=> '您的新密码已经发送到您的注册 email 邮箱。',
@@ -471,7 +480,7 @@ $lang = array_merge($lang, array(
 
 	'SAME_PASSWORD_ERROR'		=> '您输入的新密码和现在使用的密码相同',
 	'SEARCH_YOUR_POSTS'			=> '显示您的帖子',
-	'SEND_PASSWORD'				=> '发送密码',
+	'SEND_PASSWORD'				=> '重置密码',
 	'SENT_AT'					=> '发送于',
 	'SHOW_EMAIL'				=> '用户可以通过 email 联络我',
 	'SIGNATURE_EXPLAIN'			=> '这是一个可以显示在您的帖子中的文字。字数限制为 %d 。',
@@ -498,7 +507,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_RECIPIENTS'		=> '收件人过多',
 	'TOO_MANY_REGISTERS'		=> '在这次对话中您已经超过注册的最大尝试次数。请稍后再尝试。',
 
-	'UCP'						=> '用户控制面板',
+	'UCP'						=> '个人中心',
 	'UCP_ACTIVATE'				=> '激活帐号',
 	'UCP_ADMIN_ACTIVATE'		=> '请输入有效的邮箱地址，管理员需审核帐号，并发送邮件通知你。',
 	'UCP_ATTACHMENTS'			=> '附件',
@@ -555,7 +564,7 @@ $lang = array_merge($lang, array(
 
 	'UCP_PASSWORD_RESET_DISABLED'	=> '密码重置功能已禁用，如果需要帮助，请联系管理员。',
 	'UCP_REGISTER_DISABLE'			=> '暂时停止新用户注册。',
-	'UCP_REMIND'					=> '发送密码',
+	'UCP_REMIND'					=> '重置密码',
 	'UCP_RESEND'					=> '发送激活邮件',
 	'UCP_WELCOME'					=> '欢迎来到用户个人中心。',
 	'UCP_ZEBRA'						=> '好友屏蔽',
@@ -567,15 +576,15 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> '从本地上传',
 	'UPLOAD_AVATAR_URL'				=> '从链接上传',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> '填入图片链接，将会读取目标图片。',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> '用户名长度必须在 %1$s 至 %2$s 之间，并且只能使用英文字符',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> '用户名长度必须在 %1$s 至 %2$s 之间，并且只能使用英文字符，空格和 -+_[] 这些字符。',
-	'USERNAME_ASCII_EXPLAIN'		=> '用户名长度必须在 %1$s 至 %2$s 之间，并且只能使用 ASCII 字符，不能使用特殊字符',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> '用户名长度必须在 %1$s 至 %2$s 之间，并且只能使用英文和数字',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> '用户名长度在 %1$s 至 %2$s 之间，并且只能使用英文字符',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> '用户名长度在 %1$s 至 %2$s 之间，并且只能使用英文字符，空格和 -+_[] 这些字符。',
+	'USERNAME_ASCII_EXPLAIN'		=> '用户名长度在 %1$s 至 %2$s 之间，并且只能使用 ASCII 字符，不能使用特殊字符',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> '用户名长度在 %1$s 至 %2$s 之间，并且只能使用英文和数字',
 	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> '用户名必须在 %1$s 至 %2$s 之间，并且只能使用英文，数字，空格和 -+_[] 这些字符。',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> '长度必须在 %1$s 至 %2$s 之间。',
-	'USERNAME_TAKEN_USERNAME'		=> '你输入的用户名已经被使用，请更换另一个。',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> '用户名长度在 %1$s 至 %2$s 之间。',
+	'USERNAME_TAKEN_USERNAME'		=> '该用户名已被使用，请更换另一个。',
 	'USERNAME_DISALLOWED_USERNAME'	=> '你输入的用户名被禁用。',
-	'USER_NOT_FOUND_OR_INACTIVE'	=> '您指定的用户名无法找到或者未被激活。',
+	'USER_NOT_FOUND_OR_INACTIVE'	=> '指定的用户名无法找到或者未被激活。',
 
 
 	'VIEW_AVATARS'				=> '显示头像',
