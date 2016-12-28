@@ -1,15 +1,15 @@
-Subject: 新私信到达
+Subject: {SITENAME}：收到新的私信
 
-您好 {USERNAME}，
+您好，{USERNAME}：
 
-您在 “{SITENAME}” 的账号收到了来自 “{AUTHOR_NAME}” 的新私信，标题如下:
+您在{SITENAME}的账号收到了来自 “{AUTHOR_NAME}” 的新私信。
 
-{SUBJECT}
+标题：{SUBJECT}
 
-您可以点下面的链接查看您的新消息:
+您可以点下面的链接查看新消息:
 
 {U_VIEW_MESSAGE}
 
-您已要求被通知此事，别忘了您可以在个人资料里设置关闭此类通知。
+如果不想收到提醒，您也可以在个人中心关闭通知。。
 
 {EMAIL_SIG}

@@ -1,4 +1,4 @@
-Subject: 您的帐户处于未激活状态
+Subject: {SITENAME}：您的帐户尚未激活
 
 您好 {USERNAME}，
 

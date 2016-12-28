@@ -1,6 +1,6 @@
-Subject: 主题审核通知 - “{TOPIC_TITLE}”
+Subject: {SITENAME}：主题审核通知 - “{TOPIC_TITLE}”
 
-您好 {USERNAME}，
+您好，{USERNAME}：
 
 您收到此通知是因为在 “{SITENAME}” 的主题 “{TOPIC_TITLE}” 需要获得审核后才能发布。
 

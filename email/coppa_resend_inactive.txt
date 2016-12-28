@@ -1,4 +1,4 @@
-Subject: 欢迎来到 “{SITENAME}”
+Subject: {SITENAME}：欢迎加入{SITENAME}
 
 {WELCOME_MSG}
 

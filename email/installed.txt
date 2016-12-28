@@ -1,4 +1,4 @@
-Subject: phpBB已安装
+Subject: {SITENAME}：phpBB已安装
 
 恭喜！
 

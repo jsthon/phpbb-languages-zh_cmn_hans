@@ -1,8 +1,8 @@
-Subject: 帐户尚未激活
+Subject: {SITENAME}：帐户尚未激活
 
-您好 {USERNAME}，
+您好，{USERNAME}：
 
-您于 {REGISTER_DATE} 在 “{SITENAME}” 注册了一个新账户，但尚未激活。要激活它，请点击如下链接：
+您于 {REGISTER_DATE} 在 “{SITENAME}” 注册了一个新账户，但尚未激活。如需激活它，请点击如下链接：
 
 {U_ACTIVATE}
 

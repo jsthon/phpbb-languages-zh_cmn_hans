@@ -1,4 +1,4 @@
-Subject: 重新激活您的帐户
+Subject: {SITENAME}：重新激活您的帐户
 
 您好 {USERNAME}，
 

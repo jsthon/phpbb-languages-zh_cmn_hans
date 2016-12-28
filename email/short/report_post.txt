@@ -1,8 +1,10 @@
-Subject: 帖子被举报 - “{TOPIC_TITLE}”
+Subject: {SITENAME}：帖子被举报 - “{TOPIC_TITLE}”
 
-您好 {USERNAME}，
+您好，{USERNAME}：
 
-您收到此通知是因为在 “{SITENAME}” 论坛的帖子 “{POST_SUBJECT}” 被举报。
+您在{SITENAME}中的一个帖子被举报。
+
+帖子标题：{POST_SUBJECT}
 
 如果您想查看该举报，点下面的链接:
 {U_VIEW_REPORT}

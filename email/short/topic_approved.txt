@@ -1,6 +1,6 @@
-Subject: 主题已批准 - “{TOPIC_TITLE}”
+Subject: {SITENAME}：主题已批准 - “{TOPIC_TITLE}”
 
-您好 {USERNAME}，
+您好，{USERNAME}：
 
 您收到此通知是因为您在 “{SITENAME}” 论坛所发表的主题 “{TOPIC_TITLE}” 被版主或管理员批准。
 
