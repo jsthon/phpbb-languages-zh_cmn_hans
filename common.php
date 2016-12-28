@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 
 	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> '使用指南',
-	'FAQ_EXPLAIN'			=> '常见问题指南',
+	'FAQ_EXPLAIN'			=> '使用指南',
 	'FILENAME'				=> '文件名',
 	'FILESIZE'				=> '大小',
 	'FILEDATE'				=> '修改日期',
@@ -825,7 +825,7 @@ $lang = array_merge($lang, array(
 		2	=> '浏览 %d 次',
 	),
 	'VIEWING_CONTACT_ADMIN'		=> '查看联系页面',
-	'VIEWING_FAQ'				=> '查看常见问题',
+	'VIEWING_FAQ'				=> '浏览使用指南',
 	'VIEWING_MEMBERS'			=> '查看成员信息',
 	'VIEWING_ONLINE'			=> '查看在线用户',
 	'VIEWING_MCP'				=> '查看版主面板',

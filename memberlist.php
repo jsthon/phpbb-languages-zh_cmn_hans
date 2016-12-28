@@ -48,8 +48,8 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> '早于',
 
-	'CC_SENDER'				=> '给你自己发送一份这个邮箱的副本',
-	'CONTACT_ADMIN'			=> '联系管理员',
+	'CC_SENDER'				=> '同时发送一份内容副本至我的邮箱',
+	'CONTACT_ADMIN'			=> '联系我们',
 
 	'DEST_LANG'				=> '语言',
 	'DEST_LANG_EXPLAIN'		=> '选择一个合适的语言（如果可用）。',
