@@ -232,7 +232,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_URL'					=> '字段 “%s” 有一个无效网址。',
 	'FIELD_INVALID_VALUE'				=> '字段 “%s” 值无效。',
 
-	'FOE_MESSAGE'				=> '来自屏蔽用户的私信',
+	'FOE_MESSAGE'				=> '屏蔽的私信',
 	'FOES_EXPLAIN'				=> '查看与管理你屏蔽的用户，他们的帖子和私信将被忽略。',
 	'FOES_UPDATED'				=> '您的屏蔽列表已经更新',
 	'FOLDER_ADDED'				=> '文件夹已经添加',
@@ -462,7 +462,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_FOLDER_CONFIRM'				=> '您确定要删除这个文件夹吗？',
 	'RENAME'							=> '重命名',
 	'RENAME_FOLDER'						=> '重命名文件夹',
-	'REPLIED_MESSAGE'					=> '回复私信',
+	'REPLIED_MESSAGE'					=> '回复的私信',
 	'REPLY_TO_ALL'						=> '回复至发信者和所有收件人。',
 	'REPORT_PM'							=> '举报私信',
 	'RESIGN_SELECTED'					=> '辞去选中',
