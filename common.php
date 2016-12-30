@@ -854,7 +854,7 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'				=> '浏览网站',
 
 	'WARNINGS'			=> '警告次数',
-	'WARN_USER'			=> '警告用户',
+	'WARN_USER'			=> '警告',
 	'WATCH_FORUM_CONFIRM'	=> '你确定要关注此版块吗？',
 	'WATCH_FORUM_DETAILED'	=> '你确定要关注版块“%s”吗？',
 	'WATCH_TOPIC_CONFIRM'	=> '你确定要关注此主题吗？',
@@ -873,7 +873,7 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_POST_SK'		=> '你选择的帖子排序选项无效。',
 	'WRONG_DATA_TOPIC_SD'		=> '你选择的主题排序方向无效。',
 	'WRONG_DATA_TOPIC_SK'		=> '你选择的主题排序选项无效。',
-	'WROTE'						=> '写了',
+	'WROTE'						=> '的回复',
 
 	'YAHOO'				=> 'Yahoo Messenger',
 	'YOUTUBE'			=> 'YouTube',
