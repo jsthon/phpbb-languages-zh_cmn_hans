@@ -381,7 +381,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_REQUIRED'					=> '需要登录执行此操作。',
 	'LOGOUT'							=> '退出',
 	'LOGOUT_USER'						=> '退出 [ %s ]',
-	'LOG_ME_IN'							=> '保持登录',
+	'LOG_ME_IN'							=> '自动登录',
 
 	'MAIN'					=> '主要',
 	'MARK'					=> '标记',
